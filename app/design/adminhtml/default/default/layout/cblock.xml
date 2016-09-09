@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<layout>
+  <adminhtml_sales_order_shipment_view>
+    <reference name="content">
+      <block type="sks_cblock/adminhtml_sales_order_view_info_booking" template="sks/booking.phtml" name="paketid_booking_adminhtml_sales_order_shipment_view" />
+    </reference>
+  </adminhtml_sales_order_shipment_view>
+</layout>
+

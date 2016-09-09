@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Sks_Cblock>
+            <version>1.0.0</version>
+        </Sks_Cblock>
+    </modules>
+    <adminhtml>
+        <layout>
+            <updates>
+                <cblock>
+                    <file>cblock.xml</file>
+                </cblock>
+            </updates>
+        </layout>
+    </adminhtml>
+    <global>
+        <blocks>
+            <sks_cblock>
+                <class>Sks_Cblock_Block</class>
+            </sks_cblock>
+        </blocks>
+    </global>
+</config>
+
